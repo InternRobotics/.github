@@ -10,13 +10,12 @@
 </div>
 OpenRrobotLab is actively exploring a path to building general embodied intelligent systems through high-fidelity simulation and real-world interaction. We focus on four main research fields:
 
-- :fire:***Generalizable World Modeling***: 3D object & scene modeling, human body modeling, and motion generation.
+- :robot: **Humanoids and Motion Intelligence**  
 
-- :computer:***Digital Simulation Platform***: Building scalable simulation platforms for embodied learning.
-
-- :gear:***Embodied-AI with Large Models***: Embodied navigation, robotic manipulation, humanoid locomotion, and representation learning.
-
-- :robot:***Embodied System Integration***: Integrating physical agents with intelligent control systems.
+- :hand: **Manipulation and Navigation Intelligence**  
+- :hammer_and_wrench: **Simulation/Hardware Platforms for Embodied AI**  
+- :art: **AIGC for Embodied AI**  
+- :eyes: **3D Vision and Embodied Perception**
 
   
 
