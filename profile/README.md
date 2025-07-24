@@ -20,7 +20,7 @@
 ## Datasets - Objects, Scenes, and Demonstrations
 - [InternScenes](https://github.com/InternRobotics/InternScenes): A large-scale interactive indoor scene dataset with realistic layouts, 40,000 diverse scenes and 1.96M 3D objects.
 - [InternData]():
-  - [InternData-A1]():
+  - [InternData-A1](): A hybrid synthetic-real manipulation dataset integrating five heterogeneous robots, 15 skills, and 200+ scenes, emphasizing multi-robot collaboration under dynamic scenarios.
   - [InternData-M1]():
   - [InternData-N1](): The most advanced high-quality navigation dataset, including 3k+ scenes and 830k VLN data.
   - [InternData-H1]():
@@ -33,7 +33,7 @@
   - [UniHSI](https://github.com/InternRobotics/UniHSI): Unified Human-Scene Interaction via Prompted Chain-of-Contacts
   - [HIMLoco](https://github.com/InternRobotics/HIMLoco): Hybrid Internal Model: Learning Agile Legged Locomotion with Simulated Robot Response
   - 🏆[HoST](https://github.com/InternRobotics/HoST) **[Best Systems Paper Finalist at RSS 2025]**: Learning Humanoid Standing-up Control across Diverse Postures
-  - [HOMIE](https://github.com/InternRobotics/Homie): HOMIE: Humanoid Loco-Manipulation with Isomorphic Exoskeleton Cockpit
+  - [HOMIE](https://github.com/InternRobotics/Homie): Humanoid Loco-Manipulation with Isomorphic Exoskeleton Cockpit
 
 - **Manipulation**
   - [Seer](https://github.com/InternRobotics/Seer): Predictive Inverse Dynamics Models are Scalable Learners for Robotic Manipulation
