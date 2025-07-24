@@ -3,28 +3,51 @@
     <a href="https://www.xiaohongshu.com/user/profile/67e24dd1000000000e011c5f"><img src="https://img.shields.io/badge/Redbook-red?style=flat&logo=xiaohongshu&logoColor=red"/></a>
     <a href="https://www.zhihu.com/people/openrobotlab"><img src="https://img.shields.io/badge/Zhihu-lightblue?style=flat&logo=zhihu&logoColor=blue"/></a>
     <a href="https://space.bilibili.com/3546722198358311"><img src="https://img.shields.io/badge/-bilibili-ff69b4?style=flat&labelColor=ff69b4&logo=bilibili&logoColor=white"/></a>
-    <a href="https://cdn.vansin.top/InternRobotics.jpg"><img src="https://img.shields.io/badge/WeChat-brightgreen?style=flat&logo=WeChat&logoColor=green"/></a>
+    <a href="https://cdn.vansin.top/OpenRobotLab.jpg"><img src="https://img.shields.io/badge/WeChat-brightgreen?style=flat&logo=WeChat&logoColor=green"/></a>
     <a href="https://twitter.com/InternRobotics"><img src="https://img.shields.io/badge/Twitter-1DA1F2?style=flat&logo=twitter&logoColor=white"/></a>
     <a href="https://discord.gg/5jeaQHUj4B"><img src="https://img.shields.io/badge/Discord-5865F2?style=flat&logo=discord&logoColor=white"/>
 <div>&nbsp;</div>
     </div>
 </div>
-OpenRobotLab is actively exploring a path to building general embodied intelligent systems through high-fidelity simulation and real-world interaction. We focus on six main research fields:
 
-- :robot: **Humanoids and Motion Intelligence**: Development of algorithms and control systems that enable humanoid robots to move naturally and adapt to various environments.
+## Toolchain - Training, Inference and Evaluation 
+- [InternUtopia](https://github.com/InternRobotics/InternUtopia): A simulation platform for versatile Embodied AI research and developments.
+- [InternManip](https://github.com/InternRobotics/InternManip): An all-in-one robot manipulation learning suites (5 pretrained models, 4 datasets, 3 benchmarks, and more coming soon).
+- [InternNav](https://github.com/InternRobotics/InternNav): A open platform for building generalized navigation foundation models (with 6 mainstream benchmarks and 10+ baselines).
+- [InternHumanoid](https://github.com/InternRobotics/InternHumanoid): A versatile, all-in-one toolbox for whole-body humanoid robot contorl.
+- [InternSR](https://github.com/InternRobotics/InternSR): A open-source toolbox for vision-based embodied spatial intelligence.
 
-- :hand: **Manipulation and Navigation Intelligence**: Creation of AI systems that can understand and manipulate objects while navigating complex environments. 
+## Datasets - Objects, Scenes, and Demonstrations
+- [InternScenes](https://github.com/InternRobotics/InternScenes): A large-scale interactive indoor scene dataset with realistic layouts, comprising 40,000 diverse scenes and 1.96M 3D objects.
+- [InternData]():
+  - [InternData-A1]():
+  - [InternData-M1]():
+  - [InternData-N1](): The most advanced high-quality navigation dataset, including 3k+ scenes and 830k VLN data.
+  - [InternData-H1]():
 
-- :hammer_and_wrench: **Simulation/Hardware Platforms for Embodied AI**: Construction and maintenance of simulation environments and hardware platforms that support embodied AI development and testing.
+## Models and Research
 
-- � **AIGC for Embodied AI**: Development of AI-generated content for embodied systems to enhance robot learning and adaptation capabilities.
+- **Humanoids/Legged Robots**
+  - [UniHSI](https://github.com/InternRobotics/UniHSI): Unified Human-Scene Interaction via Prompted Chain-of-Contacts
+  - [HIMLoco](https://github.com/InternRobotics/HIMLoco): Hybrid Internal Model: Learning Agile Legged Locomotion with Simulated Robot Response
+  - **[Best Systems Paper Finalist at RSS 2025]** [HoST](https://github.com/InternRobotics/HoST): Learning Humanoid Standing-up Control across Diverse Postures
+  - [HOMIE](https://github.com/InternRobotics/Homie): HOMIE: Humanoid Loco-Manipulation with Isomorphic Exoskeleton Cockpit
 
-- :eyes: **3D Vision and Embodied Perception**: Development of computer vision systems that enable robots to perceive and understand their three-dimensional environment in real-time.
+- **Manipulation**
+  - [Seer](https://github.com/InternRobotics/Seer): Predictive Inverse Dynamics Models are Scalable Learners for Robotic Manipulation
+  - [RoboSplat](https://github.com/InternRobotics/RoboSplat): Novel Demonstration Generation with Gaussian Splatting Enables Robust One-Shot Manipulation
+  - [GenManip](https://github.com/InternRobotics/GenManip): LLM-driven Simulation for Generalizable Instruction-Following Manipulation
 
-- 🧠**Foundation Models for Embodied AI**: Creation of large-scale pre-trained models designed specifically for embodied intelligence to enable cross-task and cross-environment transfer learning.
+- **Navigation**
+  - [NavDP](https://github.com/InternRobotics/NavDP): Learning Sim-to-Real Navigation Diffusion Policy with Privileged Information Guidance
+  - [StreamVLN](https://github.com/InternRobotics/StreamVLN): Streaming Vision-and-Language Navigation via SlowFast Context Modeling
 
-  
+- **AIGC for Embodied AI**
+  - [Infinite-Mobility](https://github.com/InternRobotics/Infinite-Mobility): Scalable High-Fidelity Synthesis of Articulated Objects via Procedural Generation
+  - [Aether](https://github.com/InternRobotics/Aether): Geometric-Aware Unified World Modeling
 
-<div align="left">
-   <b style="font-size:20px">Dive into the repos below. Welcome!</b>
-</div>
+- **3D Vision and Embodied Perception**
+  - [EmbodiedScan](https://github.com/InternRobotics/EmbodiedScan): A Holistic Multi-Modal 3D Perception Suite Towards Embodied AI
+  - **[Best Paper Candidate at ECCV 2024]** [PointLLM](https://github.com/InternRobotics/PointLLM): Empowering Large Language Models to Understand Point Clouds
+
+- Some others are coming...
