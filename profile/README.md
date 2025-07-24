@@ -1,5 +1,4 @@
 <div align="center">
-   <a href="https://openrobotlab.org.cn/"><img src="logo.png" height="300"/></a>
   <div>
     <a href="https://www.xiaohongshu.com/user/profile/67e24dd1000000000e011c5f"><img src="https://img.shields.io/badge/Redbook-red?style=flat&logo=xiaohongshu&logoColor=red"/></a>
     <a href="https://www.zhihu.com/people/openrobotlab"><img src="https://img.shields.io/badge/Zhihu-lightblue?style=flat&logo=zhihu&logoColor=blue"/></a>
