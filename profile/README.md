@@ -3,7 +3,7 @@
     <a href="https://www.xiaohongshu.com/user/profile/67e24dd1000000000e011c5f"><img src="https://img.shields.io/badge/Redbook-red?style=flat&logo=xiaohongshu&logoColor=red"/></a>
     <a href="https://www.zhihu.com/people/openrobotlab"><img src="https://img.shields.io/badge/Zhihu-lightblue?style=flat&logo=zhihu&logoColor=blue"/></a>
     <a href="https://space.bilibili.com/3546722198358311"><img src="https://img.shields.io/badge/-bilibili-ff69b4?style=flat&labelColor=ff69b4&logo=bilibili&logoColor=white"/></a>
-    <a href="https://cdn.vansin.top/OpenRobotLab.jpg"><img src="https://img.shields.io/badge/WeChat-brightgreen?style=flat&logo=WeChat&logoColor=green"/></a>
+    <a href="https://cdn.vansin.top/InternRobotics.jpg"><img src="https://img.shields.io/badge/WeChat-brightgreen?style=flat&logo=WeChat&logoColor=green"/></a>
     <a href="https://twitter.com/InternRobotics"><img src="https://img.shields.io/badge/Twitter-1DA1F2?style=flat&logo=twitter&logoColor=white"/></a>
     <a href="https://discord.gg/5jeaQHUj4B"><img src="https://img.shields.io/badge/Discord-5865F2?style=flat&logo=discord&logoColor=white"/>
 <div>&nbsp;</div>
