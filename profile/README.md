@@ -12,13 +12,13 @@
 
 ## Toolchain - Training, Inference and Evaluation 
 - [InternUtopia](https://github.com/InternRobotics/InternUtopia): A simulation platform for versatile Embodied AI research and developments.
-- [InternManip](https://github.com/InternRobotics/InternManip): An all-in-one robot manipulation learning suites (5 pretrained models, 4 datasets, 3 benchmarks, and more coming soon).
+- [InternManip](https://github.com/InternRobotics/InternManip): An all-in-one robot manipulation learning suites (5 pretrained models, 3 benchmarks, and more coming soon).
 - [InternNav](https://github.com/InternRobotics/InternNav): A open platform for building generalized navigation foundation models (with 6 mainstream benchmarks and 10+ baselines).
 - [InternHumanoid](https://github.com/InternRobotics/InternHumanoid): A versatile, all-in-one toolbox for whole-body humanoid robot contorl.
 - [InternSR](https://github.com/InternRobotics/InternSR): A open-source toolbox for vision-based embodied spatial intelligence.
 
 ## Datasets - Objects, Scenes, and Demonstrations
-- [InternScenes](https://github.com/InternRobotics/InternScenes): A large-scale interactive indoor scene dataset with realistic layouts, comprising 40,000 diverse scenes and 1.96M 3D objects.
+- [InternScenes](https://github.com/InternRobotics/InternScenes): A large-scale interactive indoor scene dataset with realistic layouts, 40,000 diverse scenes and 1.96M 3D objects.
 - [InternData]():
   - [InternData-A1]():
   - [InternData-M1]():
@@ -27,10 +27,12 @@
 
 ## Models and Research
 
+- Some others are coming...
+
 - **Humanoids/Legged Robots**
   - [UniHSI](https://github.com/InternRobotics/UniHSI): Unified Human-Scene Interaction via Prompted Chain-of-Contacts
   - [HIMLoco](https://github.com/InternRobotics/HIMLoco): Hybrid Internal Model: Learning Agile Legged Locomotion with Simulated Robot Response
-  - **[Best Systems Paper Finalist at RSS 2025]** [HoST](https://github.com/InternRobotics/HoST): Learning Humanoid Standing-up Control across Diverse Postures
+  - 🏆[HoST](https://github.com/InternRobotics/HoST) **[Best Systems Paper Finalist at RSS 2025]**: Learning Humanoid Standing-up Control across Diverse Postures
   - [HOMIE](https://github.com/InternRobotics/Homie): HOMIE: Humanoid Loco-Manipulation with Isomorphic Exoskeleton Cockpit
 
 - **Manipulation**
@@ -48,6 +50,6 @@
 
 - **3D Vision and Embodied Perception**
   - [EmbodiedScan](https://github.com/InternRobotics/EmbodiedScan): A Holistic Multi-Modal 3D Perception Suite Towards Embodied AI
-  - **[Best Paper Candidate at ECCV 2024]** [PointLLM](https://github.com/InternRobotics/PointLLM): Empowering Large Language Models to Understand Point Clouds
+  - 🏆[PointLLM](https://github.com/InternRobotics/PointLLM) **[Best Paper Candidate at ECCV 2024]**: Empowering Large Language Models to Understand Point Clouds
 
-- Some others are coming...
+
