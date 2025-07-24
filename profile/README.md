@@ -20,9 +20,10 @@
 ## Datasets - Objects, Scenes, and Demonstrations
 - [InternScenes](https://github.com/InternRobotics/InternScenes): A large-scale interactive indoor scene dataset with realistic layouts, 40,000 diverse scenes and 1.96M 3D objects.
 - InternData:
-  - [InternData-A1](https://huggingface.co/datasets/InternRobotics/InternData-A1): A hybrid synthetic-real manipulation dataset integrating five heterogeneous robots, 15 skills, and 200+ scenes, emphasizing multi-robot collaboration under dynamic scenarios.
+  - [InternData-A1](https://huggingface.co/datasets/InternRobotics/InternData-A1): A hybrid synthetic-real manipulation dataset integrating 5 heterogeneous robots, 15 skills, and 200+ scenes, emphasizing multi-robot collaboration under dynamic scenarios.
   - [InternData-N1](https://huggingface.co/datasets/InternRobotics/InternData-N1): The most advanced high-quality navigation dataset, including 3k+ scenes and 830k VLN data.
-  - Some others are coming...
+  - [InternData-M1](https://huggingface.co/datasets/InternRobotics/InternData-M1): A large-scale synthetic manipulation dataset with rich multi-modal annotations built upon 100k+ object assets.
+  - [InternData-H1](https://huggingface.co/datasets/InternRobotics/InternData-H1): The largest open-sourced 3D human motion dataset with text annotation, including 2.5k hours 1.9M episodes.
  
 ## Models and Research
 
