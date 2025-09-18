@@ -35,6 +35,7 @@
   - [HOMIE](https://github.com/InternRobotics/Homie): Humanoid Loco-Manipulation with Isomorphic Exoskeleton Cockpit
 
 - **Manipulation**
+  - [InternVLA-M1](https://github.com/InternRobotics/InternVLA-M1): An open-source, end-to-end vision–language–action (VLA) framework for building and researching generalist robot policies.
   - [Seer](https://github.com/InternRobotics/Seer): Predictive Inverse Dynamics Models are Scalable Learners for Robotic Manipulation
   - [RoboSplat](https://github.com/InternRobotics/RoboSplat): Novel Demonstration Generation with Gaussian Splatting Enables Robust One-Shot Manipulation
   - [GenManip](https://github.com/InternRobotics/GenManip): LLM-driven Simulation for Generalizable Instruction-Following Manipulation
