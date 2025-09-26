@@ -55,6 +55,7 @@
   - Datasets:
     - [OmniWorld](https://huggingface.co/datasets/InternRobotics/OmniWorld): A large-scale, multi-domain, multi-modal dataset, enables significant performance improvements in 4D reconstruction and video generation.
   - Models and Research:
+    - [MeshCoder](https://daibingquan.github.io/MeshCoder/): Generate Structured 3D Object Blender Code from Point Clouds
     - [Infinite-Mobility](https://github.com/InternRobotics/Infinite-Mobility): Scalable High-Fidelity Synthesis of Articulated Objects via Procedural Generation
     - [Aether](https://github.com/InternRobotics/Aether): Geometric-Aware Unified World Modeling
 
