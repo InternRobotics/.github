@@ -35,7 +35,7 @@
     - [InternData-M1](https://huggingface.co/datasets/InternRobotics/InternData-M1): A large-scale synthetic dataset for generalizable pick-and-place over 80K objects, with open-ended instructions covering object recognition, spatial and commonsense reasoning, and long-horizon tasks.
   - Models and Research:
     - [InternVLA-A1](https://github.com/InternRobotics/InternVLA-A1): Unifying Understanding, Generation, and Action for Robotic Manipulation
-    - [InternVLA-M1](https://github.com/InternRobotics/InternVLA-M1): An Spatially Grounded Foundation Model for Generalist Robot
+    - [InternVLA-M1](https://github.com/InternRobotics/InternVLA-M1): A Spatially Guided Vision-Language-Action Framework for Generalist Robot Policy
     - [F1-VLA](https://github.com/InternRobotics/F1-VLA): Visual foresight generation for planning-based control
     - [VLAC](https://github.com/InternRobotics/VLAC): A generalist vision-language-action-critic model for robotic real-world reinforcement learning 
     - [Seer](https://github.com/InternRobotics/Seer): Predictive Inverse Dynamics Models are Scalable Learners for Robotic Manipulation
