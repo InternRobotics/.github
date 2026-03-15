@@ -9,61 +9,33 @@
     </div></a>
 </div>
 
-## Toolchain - Training, Inference and Evaluation 
-- [InternUtopia](https://github.com/InternRobotics/InternUtopia): A simulation platform for versatile Embodied AI research and developments.
-- [InternManip](https://github.com/InternRobotics/InternManip): An all-in-one robot manipulation learning suites (5 pretrained models, 3 benchmarks, and more coming soon).
-- [InternNav](https://github.com/InternRobotics/InternNav): A open platform for building generalized navigation foundation models (with 6 mainstream benchmarks and 10+ baselines).
-- [InternHumanoid](https://github.com/InternRobotics/InternHumanoid): A versatile, all-in-one toolbox for whole-body humanoid robot contorl.
-- [InternSR](https://github.com/InternRobotics/InternSR): A open-source toolbox for vision-based embodied spatial intelligence.
+## Manipulation
+- Datasets: [InternData-A1](https://huggingface.co/datasets/InternRobotics/InternData-A1), [InternData-M1](https://huggingface.co/datasets/InternRobotics/InternData-M1), [RoboInter](https://github.com/InternRobotics/RoboInter)
+- Models: [InternVLA-A1](https://github.com/InternRobotics/InternVLA-A1), [InternVLA-M1](https://github.com/InternRobotics/InternVLA-M1), [X-VLA](https://github.com/2toinf/X-VLA), [VLAC](https://github.com/InternRobotics/VLAC), [Seer](https://github.com/InternRobotics/Seer)
+- Algorithms: [RoboSplat](https://github.com/InternRobotics/RoboSplat), [Robo3R](https://github.com/InternRobotics/Robo3R), [UltraDexGrasp](https://github.com/InternRobotics/UltraDexGrasp), [DexImit](https://mujc2021.github.io/deximit/)
+- Benchmarks: [GenManip](https://github.com/InternRobotics/GenManip)
 
-  
- 
-## Models, Datasets and Research
+## Navigation
+- Datasets: [InternData-N1](https://huggingface.co/datasets/InternRobotics/InternData-N1)
+- Models: [InternVLA-N1](https://github.com/InternRobotics/InternNav), [StreamVLN](https://github.com/InternRobotics/StreamVLN), [NavDP](https://github.com/InternRobotics/NavDP), [LoGoPlanner](https://github.com/InternRobotics/NavDP/tree/master/baselines/logoplanner)
+- Benchmarks: [VLN-PE](https://github.com/InternRobotics/InternNav), [VL-LN Bench](https://github.com/InternRobotics/VL-LN)
 
-- **Humanoids/Legged Robots**
-  - Datasets:
-    - [InternData-H1](https://huggingface.co/datasets/InternRobotics/InternData-H1): The largest open-sourced 3D human motion dataset with text annotation, including 2.5k hours 1.9M episodes.
-  - Models and Research:
-    - [UniHSI](https://github.com/InternRobotics/UniHSI): Unified Human-Scene Interaction via Prompted Chain-of-Contacts
-    - [HIMLoco](https://github.com/InternRobotics/HIMLoco): Hybrid Internal Model: Learning Agile Legged Locomotion with Simulated Robot Response
-    - 🏆[HoST](https://github.com/InternRobotics/HoST) **[Best Systems Paper Finalist at RSS 2025]**: Learning Humanoid Standing-up Control across Diverse Postures
-    - [HOMIE](https://github.com/InternRobotics/Homie): Humanoid Loco-Manipulation with Isomorphic Exoskeleton Cockpit
+## Perception
+- Datasets: [EmbodiedScan/MMScan](https://github.com/InternRobotics/EmbodiedScan)
+- Models: 🏆[PointLLM](https://github.com/InternRobotics/PointLLM) (Best Paper Candidate at ECCV 2024), [LLaVA-3D](https://github.com/ZCMax/LLaVA-3D)
+- Benchmarks: [MMSI-Bench](https://runsenxu.com/projects/MMSI_Bench/), [MMSI-Video-Bench](https://github.com/InternRobotics/MMSI-Video-Bench), [OST-Bench](https://github.com/InternRobotics/OST-Bench)
 
-- **Manipulation**
-  - Datasets:
-    - [InternData-A1](https://huggingface.co/datasets/InternRobotics/InternData-A1): A hybrid synthetic-real manipulation dataset integrating 5 heterogeneous robots, 15 skills, and 200+ scenes, emphasizing multi-robot collaboration under dynamic scenarios.
-    - [InternData-M1](https://huggingface.co/datasets/InternRobotics/InternData-M1): A large-scale synthetic dataset for generalizable pick-and-place over 80K objects, with open-ended instructions covering object recognition, spatial and commonsense reasoning, and long-horizon tasks.
-  - Models and Research:
-    - [InternVLA-A1](https://github.com/InternRobotics/InternVLA-A1): Unifying Understanding, Generation, and Action for Robotic Manipulation
-    - [InternVLA-M1](https://github.com/InternRobotics/InternVLA-M1): A Spatially Guided Vision-Language-Action Framework for Generalist Robot Policy
-    - [F1-VLA](https://github.com/InternRobotics/F1-VLA): Visual foresight generation for planning-based control
-    - [VLAC](https://github.com/InternRobotics/VLAC): A generalist vision-language-action-critic model for robotic real-world reinforcement learning 
-    - [Seer](https://github.com/InternRobotics/Seer): Predictive Inverse Dynamics Models are Scalable Learners for Robotic Manipulation
-    - [RoboSplat](https://github.com/InternRobotics/RoboSplat): Novel Demonstration Generation with Gaussian Splatting Enables Robust One-Shot Manipulation
-    - [GenManip](https://github.com/InternRobotics/GenManip): LLM-driven Simulation for Generalizable Instruction-Following Manipulation
+## Humanoid
+- Datasets: [MotionMillion](https://huggingface.co/datasets/InternRobotics/MotionMillion)
+- WBC Controllers: [HIMLoco](https://github.com/InternRobotics/HIMLoco), 🏆[HoST](https://github.com/InternRobotics/HoST) (Best Systems Paper Finalist at RSS 2025), [HugWBC](https://github.com/apexrl/HugWBC), [XHugWBC](https://xhugwbc.github.io/), [AdaMimic](https://github.com/InternRobotics/AdaMimic)
+- Perceptive Controllers: [Perceptive Internal Model](https://junfeng-long.github.io/PIM/), [BeamDojo](https://why618188.github.io/beamdojo/), [Gallant](https://gallantloco.github.io/), [Humanoid Goalkeeper](https://github.com/InternRobotics/Humanoid-Goalkeeper)
+- HSI Controllers: [UniHSI](https://github.com/InternRobotics/UniHSI), [TokenHSI](https://github.com/liangpan99/TokenHSI), [PhysHSI](https://github.com/InternRobotics/PhysHSI)
+- Behavior Foundation Models: [UniTracker](https://yinkangning0124.github.io/Humanoid-UniTracker/), [BFM](https://bfm4humanoid.github.io/), [HumanX](https://wyhuai.github.io/human-x/)
+- TeleOp System: [HOMIE](https://github.com/InternRobotics/Homie)
 
-- **Navigation**
-  - Datasets:
-    - [InternData-N1](https://huggingface.co/datasets/InternRobotics/InternData-N1): A high-quality navigation dataset with the most diverse scenes and extensive randomization across embodiments/viewpoints, including 3k+ scenes and 830k VLN data.
-  - Models and Research:
-    - [InternVLA-N1](https://internrobotics.github.io/internvla-n1.github.io/): An Open Dual-System Vision-Language Navigation Foundation Model with Learned Latent Plans
-    - [NavDP](https://github.com/InternRobotics/NavDP): Learning Sim-to-Real Navigation Diffusion Policy with Privileged Information Guidance
-    - [StreamVLN](https://github.com/InternRobotics/StreamVLN): Streaming Vision-and-Language Navigation via SlowFast Context Modeling
-    - [VLN-PE](https://crystalsixone.github.io/vln_pe.github.io/): A Holistic Study of Physical and Visual Disparities in Vision-and-Language Navigation
+## AIGC
+- Datasets: [OmniWorld](https://huggingface.co/datasets/InternRobotics/OmniWorld), [InternScenes](https://github.com/InternRobotics/InternScenes)
+- Models: [Aether](https://github.com/InternRobotics/Aether), [Pi3](https://github.com/yyfz/Pi3), [AnySplat](https://github.com/InternRobotics/AnySplat), [PLANNING](https://city-super.github.io/PLANING/)
+- Text2Scenes: [MeshCoder](https://daibingquan.github.io/MeshCoder/), [MesaTask](https://github.com/InternRobotics/MesaTask)
 
-- **AIGC for Embodied AI**
-  - Datasets:
-    - [OmniWorld](https://huggingface.co/datasets/InternRobotics/OmniWorld): A large-scale, multi-domain, multi-modal dataset, enables significant performance improvements in 4D reconstruction and video generation.
-  - Models and Research:
-    - [MeshCoder](https://daibingquan.github.io/MeshCoder/): Generate Structured 3D Object Blender Code from Point Clouds
-    - [Infinite-Mobility](https://github.com/InternRobotics/Infinite-Mobility): Scalable High-Fidelity Synthesis of Articulated Objects via Procedural Generation
-    - [Aether](https://github.com/InternRobotics/Aether): Geometric-Aware Unified World Modeling
-
-- **3D Vision and Embodied Perception**
-  - [EmbodiedScan](https://github.com/InternRobotics/EmbodiedScan): A Holistic Multi-Modal 3D Perception Suite Towards Embodied AI
-  - 🏆[PointLLM](https://github.com/InternRobotics/PointLLM) **[Best Paper Candidate at ECCV 2024]**: Empowering Large Language Models to Understand Point Clouds
-  - [MMSI-Bench](https://runsenxu.com/projects/MMSI_Bench/): A Benchmark for Multi-Image Spatial Intelligence
-  - [OST-Bench](https://github.com/InternRobotics/OST-Bench): Evaluating the Capabilities of MLLMs in Online Spatio-temporal Scene Understanding
-- **3D Assets for Embodied AI**
-  - [InternScenes](https://github.com/InternRobotics/InternScenes): A large-scale interactive indoor scene dataset with realistic layouts, 40,000 diverse scenes and 1.96M 3D objects.
 
